@@ -2801,7 +2801,7 @@ Follow the instructions below to move all the existing API Manager configuration
     6.  Stop the WSO2 API-M server and remove the `tenantloader-1.0.jar` from the `<API-M_3.2.0_HOME>/repository/components/dropins` directory.
     
     !!! warning "Troubleshooting"
-        If you encounter below error while trying to login to publisher portal as a tenant user, please restart the server, access the devportal first and then try to login to the publisher.
+        If you encounter below error while trying to login to publisher portal as a tenant user, please login to carbon management console first.
         
         ```
         ERROR - WebAppAuthenticatorImpl You cannot access API as scope validation failed
